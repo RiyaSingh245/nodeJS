@@ -1,0 +1,49 @@
+//nodeJS internally uses javascript. it also contains V8 engine
+//nodeJS --> It is not a programming language, it's javascript runtime environment. Mainly to create APIs, connects server to client
+
+//NPM --> Node package manager, It mananges all the external packages ans libraries used. Installed while installing nodeJS
+
+//To run a js file with node --> node ./fileName
+
+//Console class in JS (in JS console mechanism is provided by web browsers) is different than the console module in nodeJS
+
+
+
+//To import, export from files in nodeJS
+
+//to export --->
+//module.exports{
+// x:10,
+// y:20,
+//}
+
+//to import
+//const imp = require('./fileName without extension');
+
+//to print the value of x and y ---> console.log(imp.x); 
+//                              ---> console.log(imp.y);
+
+
+//modules type --> 1. Core Module  2. External Module
+//Core module types ---> 1. Global module    2. Non - Global modules
+
+// core modules --> all the inbuilt functionalities / features provided in a programming language. Eg : File system (fs), Buffer, http in nodeJS
+// we don't have to import global modules (e.g. File system), nut not global modules needs to be exported (e.g : console).
+
+
+//package.json file ----> this file contains detail/ information about the project, like version, name of the project, what is
+//git repository of the project, about the commands and packages used in the project
+
+//To create package.json file ---->
+//open new terminal --> npm init ---> enter
+
+//package-lock.js ---> contains detail of all packages installed
+
+//nodeJS is single threaded, runs one command at a time
+
+//if node_modules get deleted ---> go to terminal ---> npm install --> enter
+
+//nodemon package : a time saving package, that continuously run nodeJS project
+//to install nodemon ---> npm i nodemon -g (-g to install it globally)
+
+//nodeJS is async 
