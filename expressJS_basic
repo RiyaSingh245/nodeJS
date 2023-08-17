@@ -1,0 +1,13 @@
+ExpressJS ---> framework of nodeJS
+
+Useful in ---> 1. easy to create APIs
+               2. helpful in request handling
+               3. can get routes easily
+
+Generally, Get() method is used for loading pages and other methods like put(),post(),fetch() and delete() is used while submitting a form, calling a API etc
+
+The second parameter of above method is a function with two arguments ----> request and response (it is not important that both parameters will be used), which is used for interaction between server and client.
+
+A client will always request and server will always response. NodeJS is a server.
+
+Whenever a request will be arrived from client --> it will initialise request parameter and the response from server and data sent from the server will initialise the response parameter.

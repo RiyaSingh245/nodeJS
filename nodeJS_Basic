@@ -47,3 +47,18 @@
 //to install nodemon ---> npm i nodemon -g (-g to install it globally)
 
 //nodeJS is async 
+
+//To print input from command line ---> console.log(process.argv[i]); , i ---> position of argument, 
+//always starts with 2 ---> (i >= 2)
+
+//We cannot access files from external folders in nodeJS, as node running in a folder act as a web server, a complete environment
+//that has nothing to do with external environment
+
+//Buffer -----> temporary memory location required to perform operations on file in nodeJS
+
+//drawback in async programming can be resolved using Promises etc.
+//It is handled using Promises by making the function taking longer time as a promise
+
+//nodeJS architecture consist of -----> call stack, Node APIs, callback queue
+//Anything i.e. not core to nodeJS, inherited from c/c++ will be first get registered in Node APIs
+//Node APIs will come in call stack after going to callback queue, Node APIs will come to call stack when they are empty
