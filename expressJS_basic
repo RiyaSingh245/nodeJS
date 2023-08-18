@@ -11,3 +11,16 @@ The second parameter of above method is a function with two arguments ----> requ
 A client will always request and server will always response. NodeJS is a server.
 
 Whenever a request will be arrived from client --> it will initialise request parameter and the response from server and data sent from the server will initialise the response parameter.
+
+
+render --------> display
+
+path module ----> helps in accessing the project's folder
+
+static method of express ----> loads static content/pages
+
+Can we load css files directly in nodeJS using static method or other???
+
+Template engine ----> a npm packages, used for creating dynamic pages and needs to be installed (eg : ejs), ejs is a widely used template package for template engine. We need to inform nodeJS that we are using ejs package
+
+dynamic page -----> pages dependent on databases 
