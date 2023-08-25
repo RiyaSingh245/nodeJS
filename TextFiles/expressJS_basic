@@ -34,4 +34,4 @@ There are different types of middleWare
 
 Route level middleware ---> middleware applied to only required routes not to all routes present in the application, this type of middleware can work even on one route, to a group of routes and to whole the routes present in the application.
 
-promise in javascript?
+promise in javascript? How to handle it?
