@@ -1,0 +1,8 @@
+mongoDB compass ---> a tool, GUI
+
+Difference between mongoDB and SQL
+
+MongoDB is a NoSql database, data stored in a collection, collection does not have rows and columns, data stored in a form of 
+collection
+
+In what ways NoSql database is better than sql databases
